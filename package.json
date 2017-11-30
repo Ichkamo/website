@@ -1,0 +1,23 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "Anselme Grumbach's website",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ichkamo/website.git"
+  },
+  "author": "grumbach",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ichkamo/website/issues"
+  },
+  "homepage": "https://github.com/Ichkamo/website#readme",
+  "dependencies": {
+    "express": "^4.16.2",
+    "morgan": "^1.9.0"
+  }
+}
