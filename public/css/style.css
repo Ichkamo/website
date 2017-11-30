@@ -441,19 +441,19 @@ span.menu {
 	background-size: cover !important;
 }
 .img1 {
-	background: url(../images/code.png) center;
+	background: url(../images/ml.jpg) center;
 }
  .img2 {
-	background: url(../images/code.png) center;
+	background: url(../images/guitar.jpg) center;
 }
 .img3 {
-	background: url(../images/code.png) center;
+	background: url(../images/feature.jpg) center;
 }
 .img4 {
-	background: url(../images/code.png) center;
+	background: url(../images/sail.jpg) center;
 }
 .img5 {
-	background: url(../images/code.png) center;
+	background: url(../images/Mars.jpg) center;
 }
 .img6 {
 	background: url(../images/code.png) center;
@@ -527,7 +527,7 @@ h3.title {
 	color:#000;
 }
 .about_agileits {
-	background: url(../images/code.png) center;
+	background: url(../images/me.jpg) center;
 	background-size: cover;
 	min-height: 300px;
 }
