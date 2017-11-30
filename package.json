@@ -4,6 +4,7 @@
   "description": "Anselme Grumbach's website",
   "main": "server.js",
   "scripts": {
+	"start" : "node server.js",
     "test": "nodemon server.js"
   },
   "repository": {
