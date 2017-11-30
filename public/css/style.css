@@ -4,7 +4,7 @@
 	License URL: http://creativecommons.org/licenses/by/3.0/
  --*/
 /*-- Reset Code --*/
-body { 
+body {
 	padding: 0;
 	margin: 0;
 	background: #FFF;
@@ -59,7 +59,7 @@ p {
 }
 /*-- header styling starts here --*/
 .agileits_main{
-	background:url(../images/1.jpg) no-repeat center;
+	background:url(../images/Mars.jpg) no-repeat center;
 	background-size:cover;
 	-webkit-background-size:cover;
 	-moz-background-size:cover;
@@ -441,22 +441,22 @@ span.menu {
 	background-size: cover !important;
 }
 .img1 {
-	background: url(../images/4.jpg) center;
+	background: url(../images/code.png) center;
 }
  .img2 {
-	background: url(../images/2.jpg) center;
+	background: url(../images/code.png) center;
 }
 .img3 {
-	background: url(../images/3.jpg) center;
+	background: url(../images/code.png) center;
 }
 .img4 {
-	background: url(../images/5.jpg) center; 
+	background: url(../images/code.png) center;
 }
 .img5 {
-	background: url(../images/6.jpg) center;
+	background: url(../images/code.png) center;
 }
 .img6 {
-	background: url(../images/7.jpg) center;
+	background: url(../images/code.png) center;
 }
 .img_text_w3ls {
     padding: 9.15em 0;
@@ -527,7 +527,7 @@ h3.title {
 	color:#000;
 }
 .about_agileits {
-	background: url(../images/5.jpg) center;
+	background: url(../images/code.png) center;
 	background-size: cover;
 	min-height: 300px;
 }
@@ -548,7 +548,7 @@ h3.title {
 /*-- //about --*/
 /*-- gallery --*/
 .gallery_wthree{
-	background:#4c6e90;
+	background:#124042;
 }
 .grid-2.grid_w3l {
 	margin-top: 1em;
@@ -598,19 +598,19 @@ h3.title {
 }
 a.agilebtn {
 	font-size: 1em;
-	color: #fff; 
-	background: #00BCD4;
+	color: #fff;
+	background: #124042;
 	padding: 0.7em 2em;
-	display: inline-block; 
+	display: inline-block;
 	outline:none;
-	margin-top: 1em; 
+	margin-top: 1em;
 	-webkit-transition: all 0.5s;
 	-moz-transition: all 0.5s;
 	-o-transition: all 0.5s;
 	-ms-transition: all 0.5s;
 	transition: all 0.5s;
 	position: relative;
-} 
+}
 .agilebtn::before{
 	content: '';
 	position: absolute;
@@ -678,7 +678,7 @@ a.agilebtn {
     text-align:center;
 /* IE<9 support hack */
 }
-/* chrome bug fix causing overlay-mask to not appear 
+/* chrome bug fix causing overlay-mask to not appear
 @media screen and (-webkit-min-device-pixel-ratio:0) {
 #cm-overlay-mask
 {
@@ -686,7 +686,7 @@ a.agilebtn {
 }
 #cm-overlay-mask::-webkit-scrollbar
 {
-    width:0px; 
+    width:0px;
 }}*/
 #cm-wrap
 {
@@ -698,7 +698,7 @@ a.agilebtn {
     -webkit-touch-callout: none;
     -webkit-user-select: none;
     -moz-user-select: none;
-    
+
 }
 #cm-wrap .cm-box,
 #cm-wrap .cm-scale
@@ -794,14 +794,14 @@ a.agilebtn {
 }
 /*lightbox*/
 
-/*-- //gallery --*/ 
-/*-- section --*/ 
+/*-- //gallery --*/
+/*-- section --*/
 .w3layouts-section {
 	text-align: center;
-	background:-webkit-linear-gradient(rgba(76, 76, 76, 0.6), rgb(18, 18, 18)), url(../images/6.jpg) no-repeat  center fixed;
-	background:-moz-linear-gradient(rgba(76, 76, 76, 0.6), rgb(18, 18, 18)), url(../images/6.jpg) no-repeat  center fixed;
-	background:-ms-linear-gradient(rgba(76, 76, 76, 0.6), rgb(18, 18, 18)), url(../images/6.jpg) no-repeat  center fixed;
-	background:linear-gradient(rgba(76, 76, 76, 0.6), rgb(18, 18, 18)), url(../images/6.jpg) no-repeat  center fixed;
+	background:-webkit-linear-gradient(rgba(76, 76, 76, 0.9), rgb(18, 18, 18)), url(../images/42.jpg) no-repeat  center fixed;
+	background:-moz-linear-gradient(rgba(76, 76, 76, 0.9), rgb(18, 18, 18)), url(../images/42.jpg) no-repeat  center fixed;
+	background:-ms-linear-gradient(rgba(76, 76, 76, 0.9), rgb(18, 18, 18)), url(../images/42.jpg) no-repeat  center fixed;
+	background:linear-gradient(rgba(76, 76, 76, 0.9), rgb(18, 18, 18)), url(../images/42.jpg) no-repeat  center fixed;
 	background-size: cover;
 }
 .w3layouts-section p {
@@ -810,7 +810,7 @@ a.agilebtn {
 	color: #fff;
 }
 /*-- //section --*/
-/*-- team --*/  
+/*-- team --*/
 .team.agileits-w3layouts {
     background: #fff;
 }
@@ -869,7 +869,7 @@ a.agilebtn {
 	color: #999;
 	font-size: 1em;
 }
-/*-- //team --*/ 
+/*-- //team --*/
 /*-- Contact --*/
 .contact-left-w3ls {
     padding: 0;
@@ -952,245 +952,18 @@ a.agilebtn {
 	border:none;
 }
 .contact-main ::-webkit-input-placeholder {
-   color: #fff;    
-} 
+   color: #fff;
+}
 .contact-main :-moz-placeholder { /* Firefox 18- */
-   color: #fff; 
-} 
+   color: #fff;
+}
 .contact-main ::-moz-placeholder {  /* Firefox 19+ */
-   color: #fff;  
-} 
-.contact-main :-ms-input-placeholder {  
+   color: #fff;
+}
+.contact-main :-ms-input-placeholder {
    color:#fff;
 }
 /*-- //contact --*/
-/*-- subscribe --*/
-.subscribe {
-    background: url(../images/12.jpg) center;
-    background-size: cover;
-	background-attachment: fixed;
-}
-.subscribe-wthree input[type="email"] {
-	width: 69.3%;
-	padding: .8em 1em;
-	font-size: 1em;
-	font-weight: 400;
-	border: none;
-	outline: none;
-	margin: 0;
-	-webkit-appearance: none;
-	background: #fff;
-	color:#000;
-}	
-.subscribe-wthree input[type="submit"]{
-	background: #e8870b;
-	cursor: pointer;
-	border: 0;
-	color: #fff;
-	font-weight: 400;
-	font-size: 1em;
-	text-transform: uppercase;
-	padding: .8em 1em;
-	text-align: center;
-	-webkit-appearance: none;
-	outline: none;
-	width:30%;
-	transition: 0.5s all;
-	-webkit-transition: 0.5s all;
-	-moz-transition: 0.5s all;
-	-o-transition: 0.5s all;
-	-ms-transition: 0.5s all;
-}
-.subscribe-wthree input[type="submit"]:hover{
-	background:#00BCD4;
-}
-.subscribe-wthree {
-    width:50%;
-	margin:0 auto;
-}
-/*-- //subscribe --*/ 	
-/*-- footer --*/
-.footer {
-    background: url(../images/banner1.jpg)no-repeat center bottom fixed;
-    background-size: cover;
-    padding: 5em 0 0;
-}
-.footer h3.w3ltitle {
-    color: #fff;
-    text-align: center;
-}
-.footer-agileinfo {
-    margin-top: 4em;
-}
-.footer-left {
-    text-align: right;
-    padding-right: 2em !important;
-}
-.footer-left h5 {
-    font-size: 1.5em;
-    letter-spacing: 2px;
-    font-family: 'Abel', sans-serif;
-}
-.footer-left h5 a{
-	color: #fff;
-}
-.footer-left h5 a:hover{
-	color: #fff;
-}
-.footer-left .w3ls-more {
-    margin-top: 4em;
-    border: 1px solid #fff;
-    background: none;
-}
-.footer-left .w3ls-more:hover {
-    background-color: #ff2f68;
-}
-/*-- copy-right --*/
-.copy-right {
-    padding: 2em 0;
-    text-align: center;
-    background: #000;
-}
-.copy-right p {
-	 color: #fff;
-	 padding: 1em 0 0;
-}
-.copy-right a {
-	 color: #fff;
-} 
-.copy-right a:hover {
-    color:#00BCD4;
-}
-/*-- social-icons --*/
-.social-icons ul li {
-    display: inline-block;
-    font-size: inherit;
-    text-align: center;
-    margin: 0;
-}
-.social-icons ul li a.fa {
-    font-size: 1em;
-    color: #fff;
-    line-height: 2.6em;
-	border-radius: 50px;
-}
-.icon-border {
-	position: relative;
-}
-.icon {
-    vertical-align: top;
-    overflow: hidden;
-    margin: 0 4px;
-    width: 35px;
-    height: 35px;
-}
-.social-icons ul li a.fa:hover {
-    color: #3b5998;
-}
-a.fa.fa-google-plus.icon.icon-border.googleplus:hover {
-    color: #d34836;
-}
-a.fa.fa-twitter.icon.icon-border.twitter:hover {
-    color: #4099ff;
-}
-a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
-    color: #ec4a89;
-}
-.icon-border::before,
-.icon-border::after {
-	display: block;
-	position: absolute;
-	top: 0;
-	left: 0;
-	width: 100%;
-	height: 100%;
-	content: "";
-} 
-.icon-border::before {
-	z-index: 1;
-	-webkit-transition: box-shadow 0.3s;
-	-moz-transition: box-shadow 0.3s;
-	-o-transition: box-shadow 0.3s;
-	-ms-transition: box-shadow 0.3s;
-	transition: box-shadow 0.3s;   
-	border-radius:50%;	
-}  
-/* facebook */
-.icon-border.facebook::before {
-	-webkit-box-shadow: inset 0 0 0 48px #3b5998; 
-	-moz-box-shadow: inset 0 0 0 48px #3b5998; 
-	-o-box-shadow: inset 0 0 0 48px #3b5998; 
-	-ms-box-shadow: inset 0 0 0 48px #3b5998; 
-	box-shadow: inset 0 0 0 48px #3b5998; 
-} 
-.icon-border.facebook:hover::before {
-	-webkit-box-shadow: inset 0 0 0 4px #3b5998; 
-	-moz-box-shadow: inset 0 0 0 4px #3b5998; 
-	-o-box-shadow: inset 0 0 0 4px #3b5998; 
-	-ms-box-shadow: inset 0 0 0 4px #3b5998; 
-	box-shadow: inset 0 0 0 4px #3b5998;
-} 
-/* twitter */
-.icon-border.twitter::before {
-	-webkit-box-shadow: inset 0 0 0 48px #4099ff;
-	-moz-box-shadow: inset 0 0 0 48px #4099ff;
-	-o-box-shadow: inset 0 0 0 48px #4099ff;
-	-ms-box-shadow: inset 0 0 0 48px #4099ff;
-	box-shadow: inset 0 0 0 48px #4099ff;
-} 
-.icon-border.twitter:hover::before {
-	-webkit-box-shadow: inset 0 0 0 4px #4099ff;
-	-moz-box-shadow: inset 0 0 0 4px #4099ff;
-	-o-box-shadow: inset 0 0 0 4px #4099ff;
-	-ms-box-shadow: inset 0 0 0 4px #4099ff;
-	box-shadow: inset 0 0 0 4px #4099ff;
-} 
-/* google plus */
-.icon-border.googleplus::before {
-	-webkit-box-shadow: inset 0 0 0 48px #d34836;
-	-moz-box-shadow: inset 0 0 0 48px #d34836;
-	-o-box-shadow: inset 0 0 0 48px #d34836;
-	-ms-box-shadow: inset 0 0 0 48px #d34836;
-	box-shadow: inset 0 0 0 48px #d34836;
-} 
-.icon-border.googleplus:hover::before {
-	-webkit-box-shadow: inset 0 0 0 4px #d34836;
-	-moz-box-shadow: inset 0 0 0 4px #d34836;
-	-o-box-shadow: inset 0 0 0 4px #d34836;
-	-ms-box-shadow: inset 0 0 0 4px #d34836;
-	box-shadow: inset 0 0 0 4px #d34836;
-} 
-/* dribbble */
-.icon-border.dribbble::before {
-	-webkit-box-shadow: inset 0 0 0 48px #ec4a89;
-	-moz-box-shadow: inset 0 0 0 48px #ec4a89;
-	-o-box-shadow: inset 0 0 0 48px #ec4a89;
-	-ms-box-shadow: inset 0 0 0 48px #ec4a89;
-	box-shadow: inset 0 0 0 48px #ec4a89;
-}
-.icon-border.dribbble:hover::before {
-	-webkit-box-shadow: inset 0 0 0 4px #ec4a89;
-	-moz-box-shadow: inset 0 0 0 4px #ec4a89;
-	-o-box-shadow: inset 0 0 0 4px #ec4a89;
-	-ms-box-shadow: inset 0 0 0 4px #ec4a89;
-	box-shadow: inset 0 0 0 4px #ec4a89;
-} 
-/* rss */
-.icon-border.rss::before {
-	-webkit-box-shadow: inset 0 0 0 48px #ee802f;
-	-moz-box-shadow: inset 0 0 0 48px #ee802f;
-	-o-box-shadow: inset 0 0 0 48px #ee802f;
-	-ms-box-shadow: inset 0 0 0 48px #ee802f;
-	box-shadow: inset 0 0 0 48px #ee802f;
-} 
-.icon-border.rss:hover::before {
-	-webkit-box-shadow: inset 0 0 0 4px #ee802f;
-	-moz-box-shadow: inset 0 0 0 4px #ee802f;
-	-o-box-shadow: inset 0 0 0 4px #ee802f;
-	-ms-box-shadow: inset 0 0 0 4px #ee802f;
-	box-shadow: inset 0 0 0 4px #ee802f;
-} 
-/*-- social-icons --*/
 /*-- slider-up-arrow --*/
 #toTop {
 	display: none;
@@ -1215,12 +988,12 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	-moz-opacity: 0;
 	filter: alpha(opacity=0);
 }
-/*-- //slider-up-arrow --*/ 
+/*-- //slider-up-arrow --*/
 /* -- Responsive code -- */
 @media screen and (max-width: 1280px){
 	.contact-right-w3l {
 		padding: 5em 10em;
-	}	
+	}
 }
 @media screen and (max-width: 1080px){
 	.contact-right-w3l {
@@ -1284,7 +1057,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 	.banner_text_w3layouts h3 {
         font-size: 3.8em;
-	}	
+	}
 	.about_agileits {
 		min-height: 450px;
 	}
@@ -1319,7 +1092,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	.contact-right-w3l input[type="text"], .contact-right-w3l input[type="email"] {
 		width:48.4%;
 	}
-	
+
 }
 @media screen and (max-width: 900px){
 	.contact-right-w3l {
@@ -1342,7 +1115,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	.banner_text_w3layouts h3 {
 		font-size: 3.3em;
 	}
-	
+
 	.w3agile-text.w3agile-text-small h5, .grid_w3l .w3agile-text h5 {
 		padding: 3em 0;
 	}
@@ -1353,7 +1126,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 @media screen and (max-width: 768px){
 	.w3layouts-section p {
 		margin: 0.5em auto 1em;
-	}	
+	}
 	.contact-right-w3l {
 		padding: 2em;
 	}
@@ -1390,7 +1163,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 		text-align: center;
 		margin: 0;
 	}
-}	
+}
 
 @media screen and (max-width: 736px){
 	.w3_agile_logo {
@@ -1410,7 +1183,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 	.img_text_w3ls p {
         font-size: 1.1em;
-	}	
+	}
 	.img_text_w3ls {
 		padding: 10.2em 0;
 	}
@@ -1430,7 +1203,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 	.about_agileits,.about_text_w3l,.img1, .img2, .img3, .img4, .img5, .img6,.team-grid,.grid-1,.contact-right-w3l,.contact-left-w3ls{
 		width: 100%;
-	}	
+	}
 	.about_text_w3l {
 		padding: 2em 2em 0;
 	}
@@ -1471,7 +1244,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	.contact-left-w3ls {
 		padding: 0 4em 2em;
 	}
-}	
+}
 @media screen and (max-width: 640px){
 	.subscribe-wthree {
 		width: 67%;
@@ -1556,13 +1329,13 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	.banner_text_w3layouts h3 {
 		font-size: 2.1em;
 		letter-spacing:1px;
-	}	
+	}
 	.banner_text_w3layouts p {
 		font-size: 1.1em;
 	}
     .contact-right-w3l {
 		padding: 2em 3em;
-	}	
+	}
 	.subscribe-wthree {
 		width: 92%;
 	}
@@ -1607,7 +1380,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 	.img_text_w3ls span {
 		margin: 1.2em 0 0;
-	}	
+	}
 }
 @media screen and (max-width: 384px){
 	.w3_agile_logo h1 a {
@@ -1624,7 +1397,7 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 	}
 	h3.title {
 		font-size: 2.3em;
-	}	
+	}
 	.subscribe-wthree input[type="email"],.subscribe-wthree input[type="submit"] {
 		width: 100%;
 	}
@@ -1663,4 +1436,3 @@ a.fa.fa-dribbble.icon.icon-border.dribbble:hover {
 }
 
 /* -- //Responsive code -- */
-
